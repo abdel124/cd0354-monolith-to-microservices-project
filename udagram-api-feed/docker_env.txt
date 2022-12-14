@@ -1,0 +1,9 @@
+POSTGRES_USERNAME=udagramabdeldev
+POSTGRES_PASSWORD=Boulitor129? 
+POSTGRES_DB=udagramabdeldev-1
+POSTGRES_HOST=udagramabdeldev-1.cw4set4p5n3k.us-east-1.rds.amazonaws.com
+AWS_REGION=us-east-1
+AWS_PROFILE=default
+AWS_BUCKET=udagram-api-media
+JWT_SECRET=hello_world
+URL="http://localhost:8100"
