@@ -11,6 +11,6 @@ RUN npm i -D typescript@3.4.5
 COPY . .
 RUN ionic build
 ## Run 
-FROM nginx:alpine
+FROM --platform=linux/amd64 nginx:alpine
 #COPY www /usr/share/nginx/html
 COPY --from=ionic  /usr/src/app/www /usr/share/nginx/html
